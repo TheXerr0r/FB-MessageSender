@@ -12,7 +12,6 @@ import fbchat
 from fbchat import Client
 from getpass import getpass
 import os
-import sys
 
 def CLS():
     if os == "nt":
