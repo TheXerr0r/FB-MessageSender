@@ -43,11 +43,9 @@ def Message_Sender():
         number_of_friends = int(input("\033[1;91mroot@TheXerr0r\033[1;m\u001b[37m:~# You Want To Send This Massage For How many Friends: "))
         for person in range(number_of_friends):
 	        name = str(input("\033[1;91mroot@TheXerr0r\033[1;m\u001b[37m:~# Name Of Your Friend: "))
-	        friends = client.searchForUsers(name)
-	        friend = friends[0]
 	        msg = str(input("\033[1;91mroot@TheXerr0r\033[1;m\u001b[37m:~# Type Your Massage: "))
 	        while True:
-		        sent = client.send(fbchat.models.Message(msg),friend.uid)
+		        sent = client.send(fbchat.models.Message(msg),name.uid)
 		        if sent:
 			        print("Message Sent Successfully!")
     except KeyboardInterrupt:
