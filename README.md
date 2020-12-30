@@ -7,7 +7,7 @@ A Tool To Send Multi Message With Python
       
       
       How To Install This Tool In Debian
-              ▶️ sudo git clone https://github.com/ehs4nnn/FB-MessageSender.git
+              ▶️ sudo git clone https://github.com/TheXerr0r/FB-MessageSender.git
               ▶️ cd FB-MessageSender
               ▶️ sudo pip3 install -r requirements.txt
               ▶️ sudo chmod +x messageSender.py
@@ -16,7 +16,7 @@ A Tool To Send Multi Message With Python
               
 ![alt tag](https://image.ibb.co/i4ES3U/bc.png)
 
-![alt tag](https://raw.githubusercontent.com/ehs4nnn/EY-Console/master/BITCOIN%20QR.png)
+![alt tag](https://raw.githubusercontent.com/TheXerr0r/EY-Console/master/BITCOIN%20QR.png)
                  
  If You Want To See Our Private Tools, Please Send Your Donates To Montivate Us Publish Our Private Tool :)
  
